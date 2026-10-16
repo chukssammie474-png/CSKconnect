@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#faf9f6">
+  <meta name="description" content="A warm, simple space to share little moments with your people."><title>hello — stay close</title>
+  <link rel="manifest" href="manifest.json"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar"><a class="brand" href="#" aria-label="hello home"><span class="brand-mark">h</span><span>hello<span class="brand-dot">.</span></span></a><div class="top-actions"><button class="icon-button" id="search-toggle" aria-label="Search">⌕</button><button class="avatar me" id="profile-open" aria-label="Open profile">A</button></div></header>
+    <main id="main-view"></main>
+    <nav class="bottom-nav" aria-label="Main navigation"><button class="nav-item active" data-page="chats"><span>▤</span><small>Chats</small></button><button class="nav-item" data-page="people"><span>♧</span><small>People</small></button><button class="nav-item" data-page="moments"><span>◉</span><small>Moments</small></button><button class="nav-item" data-page="settings"><span>⚙</span><small>Settings</small></button></nav>
+  </div>
+  <div class="modal-layer" id="modal-layer" hidden></div><div class="toast" id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
